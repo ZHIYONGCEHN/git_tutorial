@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 
-
-df = pd.DataFrame(np.random.randn(20, 2))
+cols = ["C", "D"]
+df = pd.DataFrame(np.random.randn(20, 2), Columns = cols)
 
 
 
