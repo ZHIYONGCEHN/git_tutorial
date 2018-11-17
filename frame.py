@@ -2,7 +2,8 @@ import numpy as np
 import pandas as pd
 
 
-df = pd.DataFrame(np.random.randn(20, 2))
+cols = ['A', 'B']
+df = pd.DataFrame(np.random.randn(20, 2), columns = cols)
 
 
 
